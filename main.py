@@ -10,7 +10,7 @@ for module_name in module_list:
         print(f"Skipped {module_name} (module is not implemented yet)")
 
 if len(implemented) == len(module_list):
-    print("All modules are implemented!!")
+    print("Wow!! You've implemented all the modules!")
 else:
     for module_name in module_list:
         if module_name not in implemented:
